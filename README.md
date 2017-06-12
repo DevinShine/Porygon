@@ -1,4 +1,9 @@
-# Porygon
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/DevinShine/Porygon/master/Art/logo.png" alt="Porygon" title="Porygon" width="557"/>
+
+</p>
+
 Porygon is a library for generate low-poly style images. It's algorithm is based on this [paper](http://ieeexplore.ieee.org/document/7314186/) and  [Polyvia](https://github.com/Ovilia/Polyvia). The Delaunay algorithm used is this [library](https://github.com/eloraiby/delaunay)
 
 ## Effect
