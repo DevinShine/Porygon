@@ -7,13 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BD182081EED8CF200271843 /* Porygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD182061EED8CF200271843 /* Porygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD182161EED8F3500271843 /* Porygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD182141EED8F3500271843 /* Porygon.h */; };
+		2BD182581EED92BA00271843 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD182571EED92BA00271843 /* Tests.m */; };
+		2BD1825A1EED92BA00271843 /* Porygon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD182031EED8CF200271843 /* Porygon.framework */; };
+		2BD182621EED93E600271843 /* delaunay.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BD182601EED93E600271843 /* delaunay.c */; };
+		2BD182631EED93E600271843 /* delaunay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD182611EED93E600271843 /* delaunay.h */; };
+		2BD182691EEE35E900271843 /* UIImage+DVSPixel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD182671EEE35E900271843 /* UIImage+DVSPixel.h */; };
+		2BD1826A1EEE35E900271843 /* UIImage+DVSPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD182681EEE35E900271843 /* UIImage+DVSPixel.m */; };
+		2BD1826D1EEE37D200271843 /* DVSPorygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD1826B1EEE37D200271843 /* DVSPorygon.h */; };
+		2BD1826E1EEE37D200271843 /* DVSPorygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD1826C1EEE37D200271843 /* DVSPorygon.m */; };
+		2BD182701EEE42C200271843 /* camera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BD1826F1EEE42C200271843 /* camera.jpg */; };
+		2BD182791EEE454200271843 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD182781EEE454200271843 /* main.m */; };
+		2BD1827C1EEE454200271843 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD1827B1EEE454200271843 /* AppDelegate.m */; };
+		2BD1827F1EEE454200271843 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD1827E1EEE454200271843 /* ViewController.m */; };
+		2BD182821EEE454200271843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD182801EEE454200271843 /* Main.storyboard */; };
+		2BD182841EEE454200271843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD182831EEE454200271843 /* Assets.xcassets */; };
+		2BD182871EEE454200271843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD182851EEE454200271843 /* LaunchScreen.storyboard */; };
+		2BD182901EEE47E600271843 /* Porygon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD182031EED8CF200271843 /* Porygon.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD1825B1EED92BA00271843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD181FA1EED8CF200271843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD182021EED8CF200271843;
+			remoteInfo = Porygon;
+		};
+		2BD182911EEE483200271843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD181FA1EED8CF200271843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD182021EED8CF200271843;
+			remoteInfo = Porygon;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2BD182031EED8CF200271843 /* Porygon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Porygon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BD182061EED8CF200271843 /* Porygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Porygon.h; sourceTree = "<group>"; };
-		2BD182071EED8CF200271843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD182131EED8F3500271843 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD182141EED8F3500271843 /* Porygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Porygon.h; sourceTree = "<group>"; };
+		2BD182551EED92BA00271843 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD182571EED92BA00271843 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		2BD182591EED92BA00271843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD182601EED93E600271843 /* delaunay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = delaunay.c; sourceTree = "<group>"; };
+		2BD182611EED93E600271843 /* delaunay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delaunay.h; sourceTree = "<group>"; };
+		2BD182671EEE35E900271843 /* UIImage+DVSPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DVSPixel.h"; sourceTree = "<group>"; };
+		2BD182681EEE35E900271843 /* UIImage+DVSPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DVSPixel.m"; sourceTree = "<group>"; };
+		2BD1826B1EEE37D200271843 /* DVSPorygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSPorygon.h; sourceTree = "<group>"; };
+		2BD1826C1EEE37D200271843 /* DVSPorygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSPorygon.m; sourceTree = "<group>"; };
+		2BD1826F1EEE42C200271843 /* camera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera.jpg; sourceTree = "<group>"; };
+		2BD182751EEE454200271843 /* Porygon-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Porygon-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD182781EEE454200271843 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BD1827A1EEE454200271843 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BD1827B1EEE454200271843 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BD1827D1EEE454200271843 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BD1827E1EEE454200271843 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BD182811EEE454200271843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BD182831EEE454200271843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BD182861EEE454200271843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BD182881EEE454200271843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,13 +77,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2BD182521EED92BA00271843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD1825A1EED92BA00271843 /* Porygon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD182721EEE454200271843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD182901EEE47E600271843 /* Porygon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2BD181F91EED8CF200271843 = {
 			isa = PBXGroup;
 			children = (
-				2BD182051EED8CF200271843 /* Porygon */,
+				2BD182121EED8F3500271843 /* Sources */,
+				2BD182561EED92BA00271843 /* Tests */,
+				2BD182761EEE454200271843 /* Porygon-Demo */,
 				2BD182041EED8CF200271843 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,17 +110,59 @@
 			isa = PBXGroup;
 			children = (
 				2BD182031EED8CF200271843 /* Porygon.framework */,
+				2BD182551EED92BA00271843 /* Tests.xctest */,
+				2BD182751EEE454200271843 /* Porygon-Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BD182051EED8CF200271843 /* Porygon */ = {
+		2BD182121EED8F3500271843 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2BD182061EED8CF200271843 /* Porygon.h */,
-				2BD182071EED8CF200271843 /* Info.plist */,
+				2BD182601EED93E600271843 /* delaunay.c */,
+				2BD182611EED93E600271843 /* delaunay.h */,
+				2BD182671EEE35E900271843 /* UIImage+DVSPixel.h */,
+				2BD182681EEE35E900271843 /* UIImage+DVSPixel.m */,
+				2BD1826B1EEE37D200271843 /* DVSPorygon.h */,
+				2BD1826C1EEE37D200271843 /* DVSPorygon.m */,
+				2BD182131EED8F3500271843 /* Info.plist */,
+				2BD182141EED8F3500271843 /* Porygon.h */,
 			);
-			path = Porygon;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2BD182561EED92BA00271843 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD1826F1EEE42C200271843 /* camera.jpg */,
+				2BD182571EED92BA00271843 /* Tests.m */,
+				2BD182591EED92BA00271843 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		2BD182761EEE454200271843 /* Porygon-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2BD1827A1EEE454200271843 /* AppDelegate.h */,
+				2BD1827B1EEE454200271843 /* AppDelegate.m */,
+				2BD1827D1EEE454200271843 /* ViewController.h */,
+				2BD1827E1EEE454200271843 /* ViewController.m */,
+				2BD182801EEE454200271843 /* Main.storyboard */,
+				2BD182831EEE454200271843 /* Assets.xcassets */,
+				2BD182851EEE454200271843 /* LaunchScreen.storyboard */,
+				2BD182881EEE454200271843 /* Info.plist */,
+				2BD182771EEE454200271843 /* Supporting Files */,
+			);
+			path = "Porygon-Demo";
+			sourceTree = "<group>";
+		};
+		2BD182771EEE454200271843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BD182781EEE454200271843 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +172,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BD182081EED8CF200271843 /* Porygon.h in Headers */,
+				2BD182161EED8F3500271843 /* Porygon.h in Headers */,
+				2BD1826D1EEE37D200271843 /* DVSPorygon.h in Headers */,
+				2BD182691EEE35E900271843 /* UIImage+DVSPixel.h in Headers */,
+				2BD182631EED93E600271843 /* delaunay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +200,42 @@
 			productReference = 2BD182031EED8CF200271843 /* Porygon.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		2BD182541EED92BA00271843 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD1825D1EED92BA00271843 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				2BD182511EED92BA00271843 /* Sources */,
+				2BD182521EED92BA00271843 /* Frameworks */,
+				2BD182531EED92BA00271843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD1825C1EED92BA00271843 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 2BD182551EED92BA00271843 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BD182741EEE454200271843 /* Porygon-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD182891EEE454200271843 /* Build configuration list for PBXNativeTarget "Porygon-Demo" */;
+			buildPhases = (
+				2BD182711EEE454200271843 /* Sources */,
+				2BD182721EEE454200271843 /* Frameworks */,
+				2BD182731EEE454200271843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD182921EEE483200271843 /* PBXTargetDependency */,
+			);
+			name = "Porygon-Demo";
+			productName = "Porygon-Demo";
+			productReference = 2BD182751EEE454200271843 /* Porygon-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,7 +247,14 @@
 				TargetAttributes = {
 					2BD182021EED8CF200271843 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 8GU4AAQG3C;
+						ProvisioningStyle = Manual;
+					};
+					2BD182541EED92BA00271843 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Manual;
+					};
+					2BD182741EEE454200271843 = {
+						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -106,6 +265,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2BD181F91EED8CF200271843;
 			productRefGroup = 2BD182041EED8CF200271843 /* Products */;
@@ -113,6 +273,8 @@
 			projectRoot = "";
 			targets = (
 				2BD182021EED8CF200271843 /* Porygon */,
+				2BD182541EED92BA00271843 /* Tests */,
+				2BD182741EEE454200271843 /* Porygon-Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +287,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2BD182531EED92BA00271843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD182701EEE42C200271843 /* camera.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD182731EEE454200271843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD182871EEE454200271843 /* LaunchScreen.storyboard in Resources */,
+				2BD182841EEE454200271843 /* Assets.xcassets in Resources */,
+				2BD182821EEE454200271843 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -132,10 +312,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BD1826A1EEE35E900271843 /* UIImage+DVSPixel.m in Sources */,
+				2BD1826E1EEE37D200271843 /* DVSPorygon.m in Sources */,
+				2BD182621EED93E600271843 /* delaunay.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD182511EED92BA00271843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD182581EED92BA00271843 /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD182711EEE454200271843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD1827F1EEE454200271843 /* ViewController.m in Sources */,
+				2BD1827C1EEE454200271843 /* AppDelegate.m in Sources */,
+				2BD182791EEE454200271843 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD1825C1EED92BA00271843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD182021EED8CF200271843 /* Porygon */;
+			targetProxy = 2BD1825B1EED92BA00271843 /* PBXContainerItemProxy */;
+		};
+		2BD182921EEE483200271843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD182021EED8CF200271843 /* Porygon */;
+			targetProxy = 2BD182911EEE483200271843 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BD182801EEE454200271843 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD182811EEE454200271843 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BD182851EEE454200271843 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD182861EEE454200271843 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2BD182091EED8CF200271843 /* Debug */ = {
@@ -241,15 +474,16 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8GU4AAQG3C;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Porygon/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shadev.Porygon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -259,16 +493,69 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8GU4AAQG3C;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Porygon/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shadev.Porygon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2BD1825E1EED92BA00271843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shadev.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		2BD1825F1EED92BA00271843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shadev.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		2BD1828A1EEE454200271843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Porygon-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shadev.Porygon-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		2BD1828B1EEE454200271843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Porygon-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shadev.Porygon-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -289,6 +576,22 @@
 			buildConfigurations = (
 				2BD1820C1EED8CF200271843 /* Debug */,
 				2BD1820D1EED8CF200271843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BD1825D1EED92BA00271843 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD1825E1EED92BA00271843 /* Debug */,
+				2BD1825F1EED92BA00271843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BD182891EEE454200271843 /* Build configuration list for PBXNativeTarget "Porygon-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD1828A1EEE454200271843 /* Debug */,
+				2BD1828B1EEE454200271843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
