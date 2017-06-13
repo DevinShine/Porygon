@@ -2,3 +2,6 @@ language: objective-c
 osx_image: xcode8.3
 xcode_project: Porygon.xcodeproj
 xcode_scheme: Porygon
+
+script:
+    - xcodebuild clean build -sdk iphonesimulator  -scheme Porygon CODE_SIGNING_REQUIRED=NO
