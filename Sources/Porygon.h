@@ -26,12 +26,12 @@
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for Porygon.
+#if __has_include(<Porygon/Porygon.h>)
 FOUNDATION_EXPORT double PorygonVersionNumber;
-
-//! Project version string for Porygon.
 FOUNDATION_EXPORT const unsigned char PorygonVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <Porygon/PublicHeader.h>
-
-
+#import <Porygon/DVSPorygon.h>
+#import <Porygon/UIImage+DVSPixel.h>
+#else
+#import "DVSPorygon.h"
+#import "UIImage+DVSPixel"
+#endif
