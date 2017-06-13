@@ -4,4 +4,6 @@ xcode_project: Porygon.xcodeproj
 xcode_scheme: Porygon
 
 script:
-    - xcodebuild clean build -sdk iphonesimulator  -scheme Porygon CODE_SIGNING_REQUIRED=NO
+    - xcodebuild clean build -sdk iphonesimulator  -scheme Porygon CODE_SIGNING_REQUIRED=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
