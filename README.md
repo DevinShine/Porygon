@@ -18,6 +18,15 @@ Porygon is a library for generate low-poly style images. It's algorithm is based
 ## Effect
 ![](Art/effect.jpg)
 
+### Detail
+
+* Get the edge points
+   * Use Sobel to find the edge vertices and randomly take a few vertices
+   * Generate random vertices using Poisson samples
+   * Merge these vertices
+* Use Delaunay to form a number of triangles
+* Get the color from the center of the triangle and fill the color
+
 ## Requirements
 
 * iOS 6.0+
