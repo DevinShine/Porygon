@@ -39,6 +39,7 @@
 #import "DVSPorygon.h"
 #import "UIImage+DVSPixel.h"
 #include "delaunay.h"
+#import "Poisson.hpp"
 
 #define NELEMS(x) (sizeof(x) / sizeof(x[0]))
 
@@ -86,7 +87,7 @@ int const DVS_MIN_VERTEX_COUNT = 100;
 #pragma mark Helper Code
 static void shuffle(void *array, size_t n, size_t size) {
     char tmp[size];
-    char *arr = array;
+    char *arr = (char *)array;
     size_t stride = size * sizeof(char);
 
     if (n > 1) {
@@ -188,6 +189,7 @@ int get_y(unsigned char *pixel, int w, int h, int x, int y) {
         _randomCount = DVS_DEFAULT_RANDOM_COUNT;
         _vertexCount = DVS_DEFAULT_VERTEX_COUNT;
         _isWireframe = false;
+        _isPoisson = true;
     }
     return self;
 }
@@ -263,12 +265,24 @@ int get_y(unsigned char *pixel, int w, int h, int x, int y) {
     [edgePointSet addObject:[[DVSPoint alloc] initWithX:0 y:h]];
 
     // add random point
-    for (int i = 0; i < _randomCount; i++) {
-        DVSPoint *p = [DVSPoint new];
-        p.x = arc4random() % 100 / 100.0 * w;
-        p.y = arc4random() % 100 / 100.0 * h;
-        [edgePointSet addObject:p];
+    if (_isPoisson) {
+        const auto Points = generatePosisson(_randomCount);
+        for ( auto i = Points.begin(); i != Points.end(); i++ )
+        {
+            DVSPoint *p = [DVSPoint new];
+            p.x = i->x * w;
+            p.y = i->y * h;
+            [edgePointSet addObject:p];
+        }
+    }else{
+        for (int i = 0; i < _randomCount; i++) {
+            DVSPoint *p = [DVSPoint new];
+            p.x = arc4random() % 100 / 100.0 * w;
+            p.y = arc4random() % 100 / 100.0 * h;
+            [edgePointSet addObject:p];
+        }
     }
+    
 
     NSUInteger result_count = [edgePointSet count];
     del_point2d_t *result_points = (del_point2d_t *)calloc(result_count, sizeof(del_point2d_t));

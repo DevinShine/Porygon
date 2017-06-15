@@ -34,7 +34,8 @@ UIKIT_EXTERN int const DVS_MIN_VERTEX_COUNT;
 @property (nonatomic) int randomCount;
 @property (nonatomic) int vertexCount;
 @property (nonatomic) BOOL isWireframe;
-
+// default use Poisson Disk Sampling
+@property (nonatomic) BOOL isPoisson;
 - (UIImage *)lowPolyWithImage:(UIImage *) image;
 
 @end
