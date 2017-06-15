@@ -12,8 +12,9 @@
 <a href="https://codebeat.co/projects/github-com-devinshine-porygon-master"><img alt="codebeat badge" src="https://codebeat.co/badges/c80a6c69-4fb9-4ccb-8e3f-773f05aa642b" /></a>
 </p>
 
-Porygon is a library for generate low-poly style images. It's algorithm is based on this [paper](http://ieeexplore.ieee.org/document/7314186/) and  [Polyvia](https://github.com/Ovilia/Polyvia). The Delaunay algorithm used is this [library](https://github.com/eloraiby/delaunay)
+Porygon is a library for generate low-poly style images. It's algorithm is based on this [paper](http://ieeexplore.ieee.org/document/7314186/) and  [Polyvia](https://github.com/Ovilia/Polyvia). The Delaunay algorithm used is this [library](https://github.com/eloraiby/delaunay).
 
+如果你看的懂中文，你可以看我的这篇[文章](http://www.jianshu.com/p/2438c99e519e)，里面会介绍实现的思路。
 ## Effect
 ![](Art/effect.jpg)
 
